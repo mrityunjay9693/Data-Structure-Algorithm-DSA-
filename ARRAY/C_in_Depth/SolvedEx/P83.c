@@ -1,4 +1,4 @@
-/* Program to count total number of even and number in array */
+/* Program to count total number of even and odd number in array */
 #include <stdio.h>
 int main()
 {
