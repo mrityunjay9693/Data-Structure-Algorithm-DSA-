@@ -5,7 +5,7 @@ int main()
 {
     int arr[10] = {10, 6, 5, 5, 88, 100, 97, 31, 0, 7};
     
-    //in variable largest and smallest arr[0] is stored and considered as small and big number.
+    //in variable largest and smallest arr[0] is stored and considered as largest and smallest number.
     int largest = arr[0];
     int smallest = arr[0];
 
