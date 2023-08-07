@@ -20,16 +20,17 @@ int main() {
   
   
   for (int i = 0; i < 10; i++) {
-    int fact = 0;
+    int fact = 1;
    // printf("fact: %d",fact);
-    for (int j = 2; j<= arr[i]; j++) {
+    for (int j = 2; j*j< arr[i]; j++) {
 
       if (arr[i] % j == 0) {
-        fact++;
-        
+        fact++; 
+        //break;       
       }
     }
-    if(fact ==1){
+    printf("fact=%d",fact);
+    if(fact==1){
         sum = sum + arr[i];
     }
  }
