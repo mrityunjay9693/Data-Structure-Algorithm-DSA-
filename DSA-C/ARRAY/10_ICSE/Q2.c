@@ -29,7 +29,7 @@ int main()
     printf("Sum of all even numbers of array arr: %d \n",evenSum);
     printf("Sum of all odd numbers of array arr: %d \n",oddSum);
 
-    return 0;
+    return 0; 
 }
 
 
