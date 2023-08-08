@@ -10,30 +10,31 @@ int main() {
 
   int arr[10];
    int sum = 0;
-  //int n = 0;
-  printf("Enter 10 elements in the array:\n");
-
-  for (int i = 0; i < 10; i++) {
-    scanf("%d",&arr[i]); //user input
-    
-  }
   
+  //user input
+  printf("Enter 10 elements in the array:\n");
+  for (int i = 0; i < 10; i++) {
+    scanf("%d",&arr[i]);    
+  }
   
   for (int i = 0; i < 10; i++) {  // considered array element 
     int fact = 0;
     if( arr[i]==1)
         continue;
    // printf("fact: %d",fact);
-    for (int j = 2; j*j<=arr[i]; j++) {  // calculate prime
+    for (int j = 2; j*j<=arr[i]; j++) {  // calculate prime      
       
       if (arr[i] % j == 0) {  
         fact++; 
         break;       
+      
       }
     }
    
     if(fact==0){
+      
         sum = sum + arr[i];
+    
     }
  }
 
