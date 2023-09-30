@@ -9,7 +9,7 @@
 int main() {
 
   int arr[10];
-   int sum = 0;
+  int sum = 0;
   
   //user input
   printf("Enter 10 elements in the array:\n");
