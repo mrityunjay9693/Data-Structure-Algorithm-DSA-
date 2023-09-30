@@ -17,21 +17,20 @@ int main()
 
   for (int i = 0; i <= 9; i++) {
 
-    scanf("%d",&arr[i]);
+    scanf("%d", &arr[i]);
     sum = sum + arr[i];
   }
 
   avg = (float)sum / 10;
-  
+
   printf("Elements of array less than average:\n");
-  
+
   for (int i = 0; i <= 9; i++) {
-    
-    if(arr[i] < avg){
-      printf("%d",arr[i]);
+
+    if (arr[i] < avg) {
+      printf("%d", arr[i]);
       printf("\n");
     }
-  
   }
   return 0;
 }
