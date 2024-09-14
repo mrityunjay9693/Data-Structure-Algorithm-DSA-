@@ -37,9 +37,10 @@ int frequency() {
     n = n / 10;
   }
   printf("Frequency of digit %d : %d", d, count);
+  return 0;
 }
 
 int main() {
   frequency();
-  return 0;
+  //return 0;
 }
