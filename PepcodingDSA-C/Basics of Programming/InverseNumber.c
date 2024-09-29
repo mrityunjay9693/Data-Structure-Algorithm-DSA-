@@ -31,6 +31,7 @@ Constrairs
  * @copyright Copyright (c) 2024
  *
  */
+ 
 #include <math.h>
 #include <stdio.h>
 int main() {
